@@ -1,5 +1,9 @@
 CYCLES RENTAL CHICAGO
+
+
 Video Demo: <(https://www.youtube.com/watch?v=KCOp2ZcLmTw&t=11s)>
+
+
 Description:
 The reason I designed this project was to learn about APIs while combining my knowledge of HTML, CSS, and other technologies from CS50. The purpose was to integrate these components to create a fully functional site similar to booking platforms for cars, bikes, plane tickets, etc., but focused on bike rentals. Although we couldn’t implement the feature of actually booking a specific vehicle, we achieved much more than I initially thought possible.
 
