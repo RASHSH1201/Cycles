@@ -1,0 +1,255 @@
+.Nav ul
+{
+  list-style-type: none;
+  background-color:#0099ff;
+
+  padding: 0px;
+  overflow: hidden;
+  margin: 0px;
+
+
+}
+.c {
+  color: rgb(77, 0, 0);
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+  margin: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px; /* Corrected property name and removed quotes */
+}
+.Nav a:hover{
+  background-color:hsl(0, 0%, 20%)
+}
+.Nav li{
+  float: left;
+
+}
+.Space{
+  margin-top: 20px;
+}
+.k{
+  width: "50%";
+  font-size: 50px;
+  left: 500px;
+  color:aquamarine;
+}
+.text {
+  color: #0099ff;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+
+
+}
+body{
+  background-color: rgb(0, 0, 0);
+}
+.Spacer{
+  margin-top: 15px;
+  width : 600px;
+  height : 40px;
+
+}
+.button-custom {
+  background-color: #3700fc; /* Set the background color you want */
+  color: white;              /* Set the text color */
+  border: none;              /* Remove default border */
+  padding: 10px 20px;        /* Add some padding */
+  cursor: pointer;           /* Change cursor to pointer */
+  border-radius: 5px;        /* Add rounded corners */
+}
+.Homecard{
+  border: 1px solid hsl(261, 100%, 50%);
+  border-radius: 10px;
+  box-shadow: 8px 8px 8px hsl(167, 100%, 50%);
+  padding: 10px;
+  margin: 50px;
+  text-align: center;
+  max-width: 200px;
+  display: inline-block;
+  margin-top : 30px;
+  
+
+}
+
+.lottie-small {
+  height: 600px;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top : -100px;
+
+}
+.lottie-other {
+  height: 500px;
+  width: 500px;
+  margin-left: 800px;
+  margin-top : -250px;
+}
+.d{
+  margin: 50px;
+}
+
+.Homecard .card-image{
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+
+  
+
+
+
+}
+
+.Homecard .card-title{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color:hsl(0, 0%, 0%);
+}
+
+.Homecard .card-text{
+  font-family: Arial, sans-serif;
+  color: hsl(0, 0%, 0%);
+
+
+}
+.title{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: bold; /* Optional: Change to desired weight (e.g., normal, bold) */
+  color: #ffffff; /* Change the color as needed */
+  margin-top: -1020px;
+}
+
+@media (max-width: 1070px) {
+  .title{
+    text-align: center;
+    margin-top: -1050px;
+  
+  }
+
+}
+@media (max-width: 800px) {
+  .title{
+    text-align: center;
+    margin-top: -1935px;
+    text-size-adjust: 50px;
+  
+  }
+
+}
+@media (max-width: 712px) {
+  .title{
+    text-align: center;
+    margin-top: -1770px;
+    text-size-adjust: 50px;
+  
+  }
+
+}  @media (max-width: 600px) {
+    .title{
+      text-align: center;
+      margin-top: -1000px;
+      text-size-adjust: 50px;
+    
+    }
+  
+  }
+  @media (max-width: 891px) {
+    .title{
+      text-align: center;
+      margin-top: -1500px;
+      text-size-adjust: 50px;
+    
+    }
+  
+  }
+  @media (max-width: 599px) {
+    .title{
+      text-align: center;
+      margin-top: -1000px;
+      text-size-adjust: 50px;
+    
+    }
+  
+  }
+  @m
+
+.title2{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: bold; /* Optional: Change to desired weight (e.g., normal, bold) */
+  color: #0099ff;
+  margin-top: 0;
+}
+
+
+.title2 span {
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+ 
+
+}
+
+
+.title2 span.fade {
+  opacity: 1;
+}
+
+
+.title span {
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+ 
+
+}
+
+.title span.fade {
+  opacity: 1;
+}
+
+@media (max-width: 600px) 
+  {
+  .Homecard{
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px hsl(0, 0%, 0.1);
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    max-width: 100px;
+    display: inline-block;
+
+
+  }
+  .d{
+    margin: 30px;
+  }
+
+  .Homecard .card-image{
+    max-width: 50%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+
+
+  }
+
+  .Homecard .card-title{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color:hsl(0, 0%, 20%);
+  }
+
+  .Homecard .card-text{
+    font-family: Arial, sans-serif;
+    color: hsl(0, 0%, 30%);
+
+
+  }
+  }
